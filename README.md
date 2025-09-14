@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MKM Solutions Website
 
-## Getting Started
+Een moderne website voor MKM Solutions, gespecialiseerd in grondwerken sinds 2023.
 
-First, run the development server:
+## Over MKM Solutions
+
+Sinds 2023 staan wij bij MKM Solutions voor kwaliteit en service in de sector grondwerken: van lantaarn- en laadpalen, trajectcontroles en bestrating tot aanleg van nutsleidingen en alle soorten graafwerken; ook voor particulieren.
+
+## Diensten
+
+- **Lantaarn- en Laadpalen**: Installatie en onderhoud van LED-verlichting en laadpalen
+- **Trajectcontroles**: Snelheidscamera's, verkeerslichten en monitoring systemen
+- **Bestrating**: Aanleg en herstel van straten, parkeerplaatsen en trottoirs
+- **Nutsleidingen**: Waterleidingen, gasleidingen, elektriciteitskabels en telecom
+- **Graafwerken**: Fundamenten, bassins, drainage en tuinwerkzaamheden
+
+## Technologie
+
+Deze website is gebouwd met:
+
+- **Next.js 15** - React framework
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Icon library
+- **Radix UI** - Accessible UI components
+
+## Ontwikkeling
 
 ```bash
+# Dependencies installeren
+npm install
+
+# Development server starten
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Production build maken
+npm run build
+
+# Production server starten
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structuur
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/                 # Next.js App Router
+├── components/          # React componenten
+│   ├── layout/         # Header en Footer
+│   ├── sections/       # Pagina secties
+│   └── ui/            # Herbruikbare UI componenten
+├── lib/                # Utilities en configuratie
+└── data/               # Statische data
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contact
 
-## Learn More
+- **Website**: [mkm-solutions.nl](https://mkm-solutions.nl)
+- **E-mail**: info@mkm-solutions.nl
+- **Telefoon**: +31-xxx-xxx-xxx
+- **Adres**: Toekomstlaan 13, 3600 Genk
 
-To learn more about Next.js, take a look at the following resources:
+## Licentie
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2024 MKM Solutions. Alle rechten voorbehouden.
