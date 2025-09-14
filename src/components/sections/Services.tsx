@@ -30,7 +30,7 @@ const services = [
       "Professionele installatie en onderhoud van lantaarn- en laadpalen voor openbare ruimtes",
     icon: Lightbulb,
     image: "/laadpaal.png",
-    features: ["LED-verlichting", "Laadpalen", "Energie-efficiënt"],
+    features: ["Laadpalen", "Energie-efficiënt", "Moderne technologie"],
   },
   {
     id: "trajectcontroles",
@@ -39,7 +39,7 @@ const services = [
       "Installatie en onderhoud van trajectcontrolesystemen voor verkeersveiligheid",
     icon: Camera,
     image: "/trajectcontrole2.jpg",
-    features: ["Snelheidscamera's", "Verkeerslichten", "Monitoring"],
+    features: ["Trajectcontroles", "ANPR camera's"],
   },
   {
     id: "bestrating",
@@ -56,7 +56,7 @@ const services = [
     description: "Aanleg en onderhoud van nutsleidingen en infrastructuur",
     icon: Wrench,
     image: "/nutsleidingen2.jpeg",
-    features: ["Waterleidingen", "Gasleidingen", "Elektriciteit"],
+    features: ["Waterleidingen", "Telecom infrastructuur", "Elektriciteit"],
   },
   {
     id: "graafwerken",
@@ -64,7 +64,7 @@ const services = [
     description: "Alle soorten graafwerken voor particulieren en bedrijven",
     icon: Shovel,
     image: "/graafwerken.jpg",
-    features: ["Fundamenten", "Bassins", "Drainage"],
+    features: ["Fundamenten", "Regenputten", "Puntopeningen"],
   },
 ];
 
@@ -116,9 +116,6 @@ export function Services() {
                 <CardContent className="space-y-4 flex flex-col flex-grow">
                   {/* Features */}
                   <div className="flex-grow flex flex-col">
-                    <h4 className="font-semibold mb-3 text-sm uppercase tracking-wider text-muted-foreground">
-                      Wat wij doen:
-                    </h4>
                     <div className="flex flex-wrap gap-2 flex-grow items-start">
                       {service.features.map((feature, idx) => (
                         <span
