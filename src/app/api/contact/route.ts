@@ -23,7 +23,7 @@ const contactSchema = z.object({
   service: z.string().optional(),
   message: z
     .string()
-    .min(10, "Bericht moet minimaal 10 karakters bevatten")
+    .min(3, "Bericht moet minimaal 10 karakters bevatten")
     .max(1000, "Bericht is te lang"),
 });
 
