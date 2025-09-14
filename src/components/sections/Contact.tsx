@@ -405,7 +405,7 @@ export function Contact({ showHeader = true }: ContactProps) {
                         value={formData.email}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
-                        placeholder="uw@email.nl"
+                        placeholder="E-mailadres"
                       />
                     </div>
                     <div>

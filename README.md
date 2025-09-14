@@ -2,9 +2,6 @@
 
 A modern website for MKM Solutions, VCA** certified groundworks company in Belgium since 2023.
 
-## About MKM Solutions
-
-VCA** certified groundworks company in Belgium since 2023. Professional groundworks services for individuals and businesses with the highest quality standards and modern technology.
 
 ## Services
 
@@ -53,32 +50,11 @@ src/
 │   └── ui/            # Reusable UI components
 ├── lib/                # Utilities and configuration
 └── data/               # Static data
-```
 
-## Environment Variables
-
-Make sure you have these environment variables set up:
-
-```bash
-RESEND_API_KEY=your_resend_api_key
-CONTACT_EMAIL=info@mkmsolutions.be
-```
-
-## Deployment
-
-The website is optimized for deployment on Vercel:
-
-```bash
-# Deploy to Vercel
-vercel --prod
-```
 
 ## Contact
 
 - **Website**: [mkmsolutions.be](https://mkmsolutions.be)
-- **Email**: info@mkmsolutions.be
-- **Phone**: +32-XXX-XXX-XXX
-- **Location**: Belgium
 
 ## Features
 
@@ -91,4 +67,4 @@ vercel --prod
 
 ## License
 
-© 2024 MKM Solutions. All rights reserved.
+© 2025 MKM Solutions. All rights reserved.
