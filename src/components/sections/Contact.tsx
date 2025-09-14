@@ -322,7 +322,6 @@ export function Contact({ showHeader = true }: ContactProps) {
           {/* Contact Form */}
           <div className="space-y-8">
             <div className="text-center">
-              <h3 className="text-3xl font-bold mb-4">Neem Contact Op</h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Vul het formulier in en wij nemen zo snel mogelijk contact met u
                 op. Voor vragen, offertes of advies staan wij voor u klaar.
