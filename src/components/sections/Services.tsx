@@ -29,10 +29,8 @@ const services = [
     description:
       "Professionele installatie en onderhoud van lantaarn- en laadpalen voor openbare ruimtes",
     icon: Lightbulb,
-    image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&q=80",
+    image: "/laadpaal.png",
     features: ["LED-verlichting", "Laadpalen", "Energie-efficiënt"],
-    duration: "2-5 dagen",
   },
   {
     id: "trajectcontroles",
@@ -40,10 +38,8 @@ const services = [
     description:
       "Installatie en onderhoud van trajectcontrolesystemen voor verkeersveiligheid",
     icon: Camera,
-    image:
-      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop&q=80",
+    image: "/trajectcontrole2.jpg",
     features: ["Snelheidscamera's", "Verkeerslichten", "Monitoring"],
-    duration: "3-7 dagen",
   },
   {
     id: "bestrating",
@@ -51,45 +47,34 @@ const services = [
     description:
       "Aanleg en herstel van bestrating voor alle soorten projecten en locaties",
     icon: Square,
-    image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop&q=80",
+    image: "/bestrating1.jpeg",
     features: ["Straten", "Parkeerplaatsen", "Trottoirs"],
-    duration: "5-14 dagen",
   },
   {
     id: "nutsleidingen",
     title: "Nutsleidingen",
     description: "Aanleg en onderhoud van nutsleidingen en infrastructuur",
     icon: Wrench,
-    image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop&q=80",
+    image: "/nutsleidingen2.jpeg",
     features: ["Waterleidingen", "Gasleidingen", "Elektriciteit"],
-    duration: "3-10 dagen",
   },
   {
     id: "graafwerken",
     title: "Graafwerken",
     description: "Alle soorten graafwerken voor particulieren en bedrijven",
     icon: Shovel,
-    image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop&q=80",
+    image: "/graafwerken.jpg",
     features: ["Fundamenten", "Bassins", "Drainage"],
-    duration: "1-5 dagen",
   },
 ];
 
 export function Services() {
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-muted/30">
+    <section className="pt-20 py-12 bg-gradient-to-b from-background to-muted/30">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold">Onze Diensten</h2>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Van lantaarn- en laadpalen tot trajectcontroles en bestrating - wij
-            bieden een compleet pakket aan grondwerkdiensten met de hoogste
-            kwaliteitsstandaarden.
-          </p>
         </div>
 
         {/* Services Grid */}
@@ -115,13 +100,6 @@ export function Services() {
                   <div className="absolute top-4 right-4">
                     <div className="p-3 bg-white/90 backdrop-blur-sm rounded-full shadow-lg">
                       <Icon className="h-6 w-6 text-primary" />
-                    </div>
-                  </div>
-
-                  {/* Duration Badge */}
-                  <div className="absolute bottom-4 left-4">
-                    <div className="px-3 py-1 bg-primary text-primary-foreground rounded-full text-sm font-medium">
-                      {service.duration}
                     </div>
                   </div>
                 </div>
@@ -170,60 +148,6 @@ export function Services() {
               </Card>
             );
           })}
-        </div>
-
-        {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">2023</div>
-            <div className="text-sm text-muted-foreground uppercase tracking-wider">
-              Sinds
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">100%</div>
-            <div className="text-sm text-muted-foreground uppercase tracking-wider">
-              Kwaliteit
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-            <div className="text-sm text-muted-foreground uppercase tracking-wider">
-              Service
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">5+</div>
-            <div className="text-sm text-muted-foreground uppercase tracking-wider">
-              Diensten
-            </div>
-          </div>
-        </div>
-
-        {/* CTA Section */}
-        <div className="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-          <div className="space-y-6">
-            <h3 className="text-2xl lg:text-3xl font-bold">
-              Klaar om uw grondwerkproject te starten?
-            </h3>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Neem contact met ons op voor een gratis offerte of advies. Wij
-              helpen u graag verder!
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="px-8 py-4 text-lg" asChild>
-                <Link href="/#contact">Gratis Offerte Aanvragen</Link>
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="px-8 py-4 text-lg"
-                asChild
-              >
-                <Link href="/services">Alle Diensten Bekijken</Link>
-              </Button>
-            </div>
-          </div>
         </div>
       </div>
     </section>

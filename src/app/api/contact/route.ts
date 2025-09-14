@@ -99,8 +99,8 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: "MKM Solutions <noreply@mkmsolutions.nl>", // Use your verified domain
-      to: [process.env.CONTACT_EMAIL || "info@mkmsolutions.nl"],
+      from: "MKM Solutions <info@mkmsolutions.be>", // Use your verified domain
+      to: [process.env.CONTACT_EMAIL || "info@mkmsolutions.be"],
       subject: `Nieuwe contactaanvraag van ${validatedData.firstName} ${
         validatedData.lastName
       }${validatedData.service ? ` - ${validatedData.service}` : ""}`,
@@ -138,7 +138,7 @@ export async function POST(request: NextRequest) {
           <div style="margin-top: 20px; padding: 15px; background: #e8f4f8; border-radius: 5px;">
             <p style="margin: 0; color: #666; font-size: 14px;">
               <strong>Verzonden op:</strong> ${new Date().toLocaleString(
-                "nl-NL"
+                "nl-BE"
               )}<br>
               <strong>IP-adres:</strong> ${ip}
             </p>
@@ -157,7 +157,7 @@ ${validatedData.phone ? `- Telefoon: ${validatedData.phone}` : ""}
 Bericht:
 ${validatedData.message}
 
-Verzonden op: ${new Date().toLocaleString("nl-NL")}
+Verzonden op: ${new Date().toLocaleString("nl-BE")}
 IP-adres: ${ip}
       `,
     });
