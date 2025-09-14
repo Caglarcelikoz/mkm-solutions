@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "MKM Solutions - Grondwerkbedrijf België",
     short_name: "MKM Solutions",
     description:
-      "VCA** gecertificeerd grondwerkbedrijf in België sinds 2023. Professionele grondwerkdiensten voor particulieren en bedrijven.",
+      "MKM Solutions - VCA** gecertificeerd grondwerkbedrijf in België sinds 2023. Professionele grondwerkdiensten voor particulieren en bedrijven.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
