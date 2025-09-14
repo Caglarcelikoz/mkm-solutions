@@ -114,7 +114,7 @@ const detailedServices = [
       "Fundamenten",
       "Tuinwerkzaamheden",
       "Regenputten",
-      "puntopeningen",
+      "Puntopeningen",
       "Onderhoudswerk",
       "Grondverzet",
     ],
