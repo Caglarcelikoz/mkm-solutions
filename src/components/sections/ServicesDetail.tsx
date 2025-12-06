@@ -137,13 +137,11 @@ const detailedServices = [
     image: "/zonnepanelen-digitale-meter.jpg",
     features: [
       "Vernieuwing gas- en elektriciteitsnetwerken",
-      "Herstel van aansluitingen en leidingen",
-      "Veiligstellen technische installaties",
-      "Vervanging oude meters door digitale meters",
-      "Uitvoering in opdracht van Fluvius",
-      "Conform alle technische voorschriften",
-      "Veiligheidsrichtlijnen",
-      "Minimale hinder voor bewoners en bedrijven",
+      "Herstel aansluitingen en leidingen",
+      "Vervanging digitale meters",
+      "Samenwerking met Fluvius",
+      "Veiligstellen installaties",
+      "Minimale hinder",
     ],
     process: [
       "Inspectie en analyse bestaande installatie",
