@@ -171,7 +171,7 @@ export function Contact({ showHeader = true }: ContactProps) {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Phone & Email - Combined Card */}
               <Card className="border-0 shadow-xl shadow-black/20 hover:shadow-2xl hover:shadow-black/30 transition-all duration-300 bg-white/95 backdrop-blur-sm hover:scale-105 rounded-3xl overflow-hidden md:col-span-1 lg:col-span-1 relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-gray-900/5 via-transparent to-transparent rounded-3xl"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-gray-900/5 via-transparent to-transparent rounded-3xl"></div>
                 <CardHeader className="pb-4 relative z-10">
                   <CardTitle className="text-xl">Contact</CardTitle>
                 </CardHeader>
@@ -179,7 +179,7 @@ export function Contact({ showHeader = true }: ContactProps) {
                   {/* Phone Section */}
                   <div>
                     <div className="flex items-center space-x-3 mb-3">
-                      <div className="p-3 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
+                      <div className="p-3 bg-linear-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
                         <Phone className="h-6 w-6 text-primary" />
                       </div>
                       <div>
@@ -200,7 +200,7 @@ export function Contact({ showHeader = true }: ContactProps) {
                   {/* Email Section */}
                   <div>
                     <div className="flex items-center space-x-3 mb-3">
-                      <div className="p-3 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
+                      <div className="p-3 bg-linear-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
                         <Mail className="h-6 w-6 text-primary" />
                       </div>
                       <div>
@@ -222,10 +222,10 @@ export function Contact({ showHeader = true }: ContactProps) {
 
               {/* Location - Large Card */}
               <Card className="border-0 shadow-xl shadow-black/20 hover:shadow-2xl hover:shadow-black/30 transition-all duration-300 bg-white/95 backdrop-blur-sm hover:scale-105 rounded-3xl overflow-hidden md:col-span-2 lg:col-span-2 relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-gray-900/5 via-transparent to-transparent rounded-3xl"></div>
+                <div className="absolute inset-0 bg-linear-to-br from-gray-900/5 via-transparent to-transparent rounded-3xl"></div>
                 <CardHeader className="pb-4 relative z-10">
                   <div className="flex items-center space-x-3">
-                    <div className="p-3 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
+                    <div className="p-3 bg-linear-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
                       <MapPin className="h-6 w-6 text-primary" />
                     </div>
                     <CardTitle className="text-xl">
@@ -274,7 +274,7 @@ export function Contact({ showHeader = true }: ContactProps) {
                   {/* Opening Hours Section */}
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
-                      <div className="p-3 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
+                      <div className="p-3 bg-linear-to-br from-primary/20 to-primary/10 rounded-full shadow-sm">
                         <Clock className="h-6 w-6 text-primary" />
                       </div>
                       <div>

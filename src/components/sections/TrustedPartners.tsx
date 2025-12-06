@@ -54,7 +54,7 @@ export function TrustedPartners() {
 
           {/* Partners - Responsive Grid */}
           <div className="grid grid-cols-2 md:flex md:items-center md:justify-center md:space-x-8 lg:space-x-12 py-8 gap-8 md:gap-0 justify-items-center">
-            {partners.map((partner, index) => (
+            {partners.map((partner) => (
               <div
                 key={partner.name}
                 className="group flex items-center justify-center"

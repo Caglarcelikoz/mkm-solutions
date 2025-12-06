@@ -151,7 +151,7 @@ const detailedServices = [
       "Testen en controle conform normen",
       "Oplevering en documentatie",
     ],
-    benefits: ["Veilig", "Conform", "Professioneel"],
+    benefits: ["Veilig", "Nauwkeurig", "Professioneel"],
   },
 ];
 
@@ -185,7 +185,7 @@ export function ServicesDetail() {
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Grondwerkdiensten",
-      itemListElement: detailedServices.map((service, index) => ({
+      itemListElement: detailedServices.map((service) => ({
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
