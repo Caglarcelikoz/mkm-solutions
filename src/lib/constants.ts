@@ -47,4 +47,10 @@ export const SERVICES = [
     description: "Alle soorten graafwerken voor particulieren en bedrijven.",
     icon: "shovel",
   },
+  {
+    title: "Saneringswerken Gas & Elektriciteit",
+    description:
+      "Vernieuwing, herstel en veiligstellen van gas- en elektriciteitsnetwerken.",
+    icon: "zap",
+  },
 ] as const;

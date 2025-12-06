@@ -144,6 +144,10 @@ export function Footer() {
                 <div className="w-2 h-2 bg-primary-foreground/60 rounded-full group-hover:scale-125 transition-transform"></div>
                 Graafwerken
               </li>
+              <li className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 flex items-center gap-2 group">
+                <div className="w-2 h-2 bg-primary-foreground/60 rounded-full group-hover:scale-125 transition-transform"></div>
+                Saneringswerken Gas & Elektriciteit
+              </li>
             </ul>
           </div>
         </div>

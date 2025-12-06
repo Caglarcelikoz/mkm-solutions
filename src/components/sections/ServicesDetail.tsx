@@ -2,10 +2,11 @@ import { Button } from "@/components/ui/button";
 import {
   Lightbulb,
   Camera,
-  Hammer,
-  Wrench,
   Shovel,
+  Wrench,
+  Tractor,
   CheckCircle,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -56,7 +57,7 @@ const detailedServices = [
     title: "Bestrating",
     description:
       "Aanleg en herstel van bestrating voor alle soorten projecten en locaties met hoogwaardige materialen.",
-    icon: Hammer,
+    icon: Shovel,
     image: "/bestrating.jpg",
     features: [
       "Straten en wegen",
@@ -108,7 +109,7 @@ const detailedServices = [
     title: "Graafwerken",
     description:
       "Alle soorten graafwerken voor particulieren en bedrijven met professionele apparatuur en ervaren operators.",
-    icon: Shovel,
+    icon: Tractor,
     image: "/graafwerken.jpg",
     features: [
       "Fundamenten",
@@ -127,6 +128,33 @@ const detailedServices = [
     ],
     benefits: ["Precisie", "Efficiënt", "Flexibel"],
   },
+  {
+    id: "saneringswerken-gas-elektriciteit",
+    title: "Saneringswerken Gas & Elektriciteit",
+    description:
+      "Saneringswerken aan gas- en elektriciteitsnetwerken in heel Vlaanderen. Vernieuwing, herstel en veiligstelling van aansluitingen en installaties, inclusief vervanging van oude meters door digitale meters in opdracht van Fluvius.",
+    icon: Zap,
+    image: "/zonnepanelen-digitale-meter.jpg",
+    features: [
+      "Vernieuwing gas- en elektriciteitsnetwerken",
+      "Herstel van aansluitingen en leidingen",
+      "Veiligstellen technische installaties",
+      "Vervanging oude meters door digitale meters",
+      "Uitvoering in opdracht van Fluvius",
+      "Conform alle technische voorschriften",
+      "Veiligheidsrichtlijnen",
+      "Minimale hinder voor bewoners en bedrijven",
+    ],
+    process: [
+      "Inspectie en analyse bestaande installatie",
+      "Planning en voorbereiding werkzaamheden",
+      "Veiligstellen en isoleren bestaande installatie",
+      "Vervanging of herstel van leidingen en meters",
+      "Testen en controle conform normen",
+      "Oplevering en documentatie",
+    ],
+    benefits: ["Veilig", "Conform", "Professioneel"],
+  },
 ];
 
 export function ServicesDetail() {
@@ -135,7 +163,7 @@ export function ServicesDetail() {
     "@type": "LocalBusiness",
     name: "MKM Solutions",
     description:
-      "Professionele grondwerkdiensten in België. Lantaarn- en laadpalen, trajectcontroles, bestrating, nutsleidingen en graafwerken.",
+      "Professionele grondwerkdiensten in België. Lantaarn- en laadpalen, trajectcontroles, bestrating, nutsleidingen, graafwerken, saneringswerken gas & elektriciteit en watermeter vervanging.",
     url: "https://mkmsolutions.be",
     telephone: "+32-XXX-XXX-XXX",
     address: {
@@ -154,6 +182,7 @@ export function ServicesDetail() {
       "Bestrating",
       "Nutsleidingen",
       "Graafwerken",
+      "Saneringswerken Gas & Elektriciteit",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -191,7 +220,8 @@ export function ServicesDetail() {
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
                   Ontdek onze uitgebreide grondwerkdiensten: van lantaarn- en
-                  laadpalen tot trajectcontroles en bestrating. Wij bieden een
+                  laadpalen tot trajectcontroles, bestrating, saneringswerken
+                  gas & elektriciteit en watermeter vervanging. Wij bieden een
                   compleet pakket aan grondwerkdiensten met de hoogste
                   kwaliteitsstandaarden.
                 </p>

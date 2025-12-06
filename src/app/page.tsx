@@ -10,7 +10,7 @@ import { Contact } from "@/components/sections/Contact";
 export const metadata: Metadata = {
   title: "Grondwerkdiensten België | VCA** Gecertificeerd | MKM Solutions",
   description:
-    "VCA** gecertificeerd grondwerkbedrijf in België sinds 2023. Professionele grondwerkdiensten: lantaarn- en laadpalen, trajectcontroles, bestrating, nutsleidingen en graafwerken. Gratis offerte voor particulieren en bedrijven!",
+    "VCA** gecertificeerd grondwerkbedrijf in België sinds 2023. Professionele grondwerkdiensten: lantaarn- en laadpalen, trajectcontroles, bestrating, nutsleidingen, graafwerken, saneringswerken gas & elektriciteit en watermeter vervanging. Gratis offerte voor particulieren en bedrijven!",
   keywords: [
     "grondwerken belgië",
     "grondwerkbedrijf",
@@ -76,6 +76,8 @@ export default function Home() {
       "Bestrating",
       "Nutsleidingen",
       "Graafwerken",
+      "Saneringswerken Gas & Elektriciteit",
+      "Watermeter Vervangen",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -124,6 +126,24 @@ export default function Home() {
             name: "Graafwerken",
             description:
               "Alle soorten graafwerken voor particulieren en bedrijven met professionele apparatuur en ervaren operators.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Saneringswerken Gas & Elektriciteit",
+            description:
+              "Saneringswerken aan gas- en elektriciteitsnetwerken in heel Vlaanderen. Vernieuwing, herstel en veiligstelling van aansluitingen en installaties, inclusief vervanging van oude meters door digitale meters in opdracht van Fluvius.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Watermeter Vervangen",
+            description:
+              "Professionele vervanging van watermeters voor particulieren en bedrijven met correcte installatie volgens geldende normen.",
           },
         },
       ],

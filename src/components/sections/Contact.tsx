@@ -448,6 +448,12 @@ export function Contact({ showHeader = true }: ContactProps) {
                       <option value="bestrating">Bestrating</option>
                       <option value="nutsleidingen">Nutsleidingen</option>
                       <option value="graafwerken">Graafwerken</option>
+                      <option value="saneringswerken-gas-elektriciteit">
+                        Saneringswerken Gas & Elektriciteit
+                      </option>
+                      <option value="watermeter-vervangen">
+                        Watermeter Vervangen
+                      </option>
                       <option value="vraag">Algemene vraag</option>
                       <option value="overig">Overig</option>
                     </select>

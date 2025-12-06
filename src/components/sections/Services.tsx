@@ -9,15 +9,11 @@ import { Button } from "@/components/ui/button";
 import {
   Lightbulb,
   Camera,
-  Square,
-  Wrench,
   Shovel,
-  CheckCircle,
-  Clock,
-  Shield,
-  Award,
-  Users,
+  Wrench,
+  Tractor,
   ArrowRight,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -46,7 +42,7 @@ const services = [
     title: "Bestrating",
     description:
       "Aanleg en herstel van bestrating voor alle soorten projecten en locaties",
-    icon: Square,
+    icon: Shovel,
     image: "/bestrating1.jpeg",
     features: ["Straten", "Parkeerplaatsen", "Trottoirs"],
   },
@@ -62,9 +58,18 @@ const services = [
     id: "graafwerken",
     title: "Graafwerken",
     description: "Alle soorten graafwerken voor particulieren en bedrijven",
-    icon: Shovel,
+    icon: Tractor,
     image: "/graafwerken.jpg",
     features: ["Fundamenten", "Regenputten", "Puntopeningen"],
+  },
+  {
+    id: "saneringswerken-gas-elektriciteit",
+    title: "Saneringswerken Gas & Elektriciteit",
+    description:
+      "Vernieuwing, herstel en veiligstellen van gas- en elektriciteitsnetwerken, inclusief vervanging van meters",
+    icon: Zap,
+    image: "/zonnepanelen-digitale-meter.jpg",
+    features: ["Gas- en elektriciteitsnetwerken", "Digitale meters", "Fluvius"],
   },
 ];
 

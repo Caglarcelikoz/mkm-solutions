@@ -71,6 +71,8 @@ export default function ContactPage() {
         "Bestrating",
         "Nutsleidingen",
         "Graafwerken",
+        "Saneringswerken Gas & Elektriciteit",
+        "Watermeter Vervangen",
       ],
       openingHours: "Mo-Fr 08:00-17:00",
       priceRange: "€€",
